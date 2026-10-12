@@ -1,0 +1,118 @@
+
+    <!-- ABOUT -->
+    <section id="about" class="dark-band">
+        <div class="container">
+            <div class="about-grid">
+
+                <div class="about-text">
+                    <span class="label">Who We Are</span>
+                    <h2>A Dedicated Digital Agency Partnering with South African Businesses</h2>
+                    <p>
+                        At <strong>QPC Web Design</strong>, we believe every South African business—whether based locally in Margate &amp; Port Shepstone or serving clients nationwide—deserves a professional, fast, and high-converting web presence without paying astronomical agency fees.
+                    </p>
+                    <p>
+                        We don't build bloated websites that take months to complete. Our team specializes in clean, modern web engineering, strategic local SEO, and simple client admin portals that give you full control over your business content.
+                    </p>
+                    <div class="highlights">
+                        <div class="highlight">
+                            <h4><i class="fa-solid fa-location-dot"></i> SA Local &amp; Remote</h4>
+                            <p>Seamless online collaboration via WhatsApp, email, and phone.</p>
+                        </div>
+                        <div class="highlight">
+                            <h4><i class="fa-solid fa-handshake"></i> Transparent Pricing</h4>
+                            <p>Fixed ZAR rates with zero surprise charges or contract locks.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-cards">
+                    <div class="card">
+                        <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>Clean Architecture</h3>
+                        <p>Hand-crafted code ensuring lightning-fast load times, flawless security, and sharp display across all mobile screens.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon green"><i class="fa-solid fa-user-gear"></i></div>
+                        <h3>Client Admin Portal</h3>
+                        <p>Easily update your text, services, photos, and customer testimonials through an intuitive admin control panel.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon purple"><i class="fa-solid fa-magnifying-glass-location"></i></div>
+                        <h3>Google Business &amp; SEO</h3>
+                        <p>We optimize your metadata and local map presence so potential customers in your area find you first.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon amber"><i class="fa-solid fa-headset"></i></div>
+                        <h3>Ongoing Support</h3>
+                        <p>Our optional R300/mo maintenance package covers secure hosting management, backups, and routine content updates.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="container">
+            <div class="section-heading">
+                <span class="label">Our Core Expertise</span>
+                <h2>Services Tailored for South African Businesses</h2>
+                <p>We provide end-to-end digital solutions designed to help your business establish authority and generate inquiries.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="card">
+                    <div>
+                        <div class="icon"><i class="fa-solid fa-desktop"></i></div>
+                        <h3>High-Performance Web Design</h3>
+                        <p>Sleek, responsive sites engineered for maximum speed, strong contrast, and clear calls to action across smartphone and desktop screens.</p>
+                    </div>
+                    <ul class="ticks">
+                        <li><i class="fa-solid fa-check"></i> Mobile-First Design</li>
+                        <li><i class="fa-solid fa-check"></i> Smooth Fade-In Animations</li>
+                        <li><i class="fa-solid fa-check"></i> Direct WhatsApp Leads</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="icon green"><i class="fa-solid fa-sliders"></i></div>
+                        <h3>Content Management &amp; Admin Portals</h3>
+                        <p>Say goodbye to complex website software. We set up an easy self-management portal so you can update business hours, services, and photos independently.</p>
+                    </div>
+                    <ul class="ticks">
+                        <li><i class="fa-solid fa-check"></i> Easy /admin Form Access</li>
+                        <li><i class="fa-solid fa-check"></i> Self-Editable Content</li>
+                        <li><i class="fa-solid fa-check"></i> No Database Overhead</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="icon purple"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <h3>Local SEO &amp; Google Setup</h3>
+                        <p>Ensure customers in your target area find your business when searching Google. We configure search metadata, schema markup, and Google Business Profile tags.</p>
+                    </div>
+                    <ul class="ticks">
+                        <li><i class="fa-solid fa-check"></i> Google Maps Visibility</li>
+                        <li><i class="fa-solid fa-check"></i> SA Local Keyword Targeting</li>
+                        <li><i class="fa-solid fa-check"></i> Schema &amp; Metadata Setup</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="icon amber"><i class="fa-solid fa-server"></i></div>
+                        <h3>Maintenance &amp; Hosting Management</h3>
+                        <p>We manage your site security, SSL certificates, fast edge hosting, and routine content adjustments so you can focus entirely on running your operations.</p>
+                    </div>
+                    <ul class="ticks">
+                        <li><i class="fa-solid fa-check"></i> R300/mo Maintenance Add-on</li>
+                        <li><i class="fa-solid fa-check"></i> Fast Secure Hosting</li>
+                        <li><i class="fa-solid fa-check"></i> Small Admin Edits Included</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
