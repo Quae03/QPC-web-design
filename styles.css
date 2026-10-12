@@ -266,8 +266,9 @@ body {
 
     section.hero {
         text-align: center;
-        padding: 100px 20px;
+        padding: 60px 0px 0px 0;
         background: radial-gradient(circle at top, rgba(0, 180, 216, 15%), transparent 60%);
+        
         div.hero-badge {
             display: inline-block;
             padding: 6px 14px;
@@ -324,74 +325,25 @@ body {
         }
     }
 
-    /* ABOUT */
+    /* PORTFOLIO */
 
-    div.about-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(min(450px, 100%), 1fr));
-        gap: 50px;
-        align-items: center;
-        div.about-text {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            h2 {
-                font-size: 34px;
-                @media (max-width: 599px) {
-                    font-size: 26px;
-                }
-            }
-            span.label {
-                color: var(--cyan);
-                font-size: 12px;
-                font-weight: 700;
-                letter-spacing: 2px;
-                text-transform: uppercase;
-            }
-        }
-        div.highlights {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
-            gap: 15px;
-            div.highlight {
-                background-color: rgba(11, 19, 43, 60%);
-                border: 1px solid var(--navy-border);
-                border-radius: 10px;
-                padding: 15px;
-                h4 {
-                    color: var(--cyan);
-                    font-size: 16px;
-                    margin: 0 0 5px 0;
-                }
-                p {
-                    color: var(--text-grey);
-                    font-size: 12px;
-                }
-            }
-        }
-        div.about-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
-            gap: 15px;
+    a:hover {
+        img {
+            transform: scale(0.9);
+            filter: none;
+            transition: all 0.5s ease;
         }
     }
-
-    /* SERVICES */
-
-    div.services-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
-        gap: 20px;
-        div.card {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            gap: 20px;
-            ul.ticks {
-                padding-top: 15px;
-                border-top: 1px solid var(--navy-border);
-            }
-        }
+    img {
+        border-radius: 10px;
+        filter: sepia();
+        max-height: 300px;
+        width: 100%;
+        transition: all 0.5s ease; /* for smooth transition out of animation */
+    }
+    video {
+        margin-top: 30px;
+        object-position: top;
     }
 
     /* PACKAGES */
